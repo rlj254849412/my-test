@@ -1,2 +1,2 @@
 my-test
-none
+$<aaa>
