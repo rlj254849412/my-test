@@ -1,5 +1,5 @@
 function organization() {
-    var url = "http://rlj254849412.github.io/json/d1.json"
+    var url = "json/d1.json"
     var r = new XMLHttpRequest();
     r.open("get", url);
     r.send(null);
@@ -12,7 +12,7 @@ function organization() {
     }
 }
 function lta() {
-    var url = "http://rlj254849412.github.io/json/d2.json"
+    var url = "json/d2.json"
     var r = new XMLHttpRequest();
     r.open("get", url);
     r.send(null);
@@ -25,7 +25,7 @@ function lta() {
     }
 }
 function tam() {
-    var url = "http://rlj254849412.github.io/json/d3.json"
+    var url = "json/d3.json"
     var r = new XMLHttpRequest();
     r.open("get", url);
     r.send(null);
@@ -38,7 +38,7 @@ function tam() {
     }
 }
 function mat() {
-    var url = "http://rlj254849412.github.io/json/d4.json"
+    var url = "json/d4.json"
     var r = new XMLHttpRequest();
     r.open("get", url);
     r.send(null);
@@ -51,7 +51,7 @@ function mat() {
     }
 }
 function tfc() {
-    var url = "http://rlj254849412.github.io/json/d5.json"
+    var url = "json/d5.json"
     var r = new XMLHttpRequest();
     r.open("get", url);
     r.send(null);
@@ -64,7 +64,7 @@ function tfc() {
     }
 }
 function contact() {
-    var url = "http://rlj254849412.github.io/json/d6.json"
+    var url = "json/d6.json"
     var r = new XMLHttpRequest();
     r.open("get", url);
     r.send(null);
