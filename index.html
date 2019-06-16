@@ -5,42 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>IEEE CIS Technical Committee on Data Mining and Big Data Analytics</title>
-    <script type="text/javascript">
-        function organization() {
-            var url = "json/test.json"
-            /*json文件url*/
-            var request = new XMLHttpRequest();
-            request.open("get", url);
-            /*设置请求方法与路径*/
-            request.send(null);
-            /*不发送数据到服务器*/
-            request.onload = function () {/*XHR对象获取到返回信息后执行*/
-                if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
-                    var json = JSON.parse(request.responseText);
-                    var diva = document.getElementsByClassName("nav_t")[0]
-                    diva.innerHTML = json.cen
-
-                }
-            }
-        }
-        function lta() {
-            var url = "json/d2.json"
-            /*json文件url*/
-            var request = new XMLHttpRequest();
-            request.open("get", url);
-            /*设置请求方法与路径*/
-            request.send(null);
-            /*不发送数据到服务器*/
-            request.onload = function () {/*XHR对象获取到返回信息后执行*/
-                if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
-                    var json = JSON.parse(request.responseText);
-                    var diva = document.getElementsByClassName("nav_t")[0]
-                    diva.innerHTML = json.cen
-
-                }
-            }
-        }
-    </script>
+    <script type="text/javascript" src="js/index.js"></script>
     <style type="text/css">
     </style>
 </head>
@@ -63,28 +28,31 @@
         </p>
         <hr/>
         <p class="l_d">
-            <a>Target and Motivation</a>
+            <a href="javascript:void(0);" onclick="tam()">Target and Motivation</a>
         </p>
         <hr/>
         <p class="l_d">
-            <a>Mission and Topics</a>
+            <a href="javascript:void(0);" onclick="mat()">Mission and Topics</a>
         </p>
         <hr/>
         <p class="l_d">
-            <a>Task Force Committee</a>
+            <a href="javascript:void(0);" onclick="tfc()">Task Force Committee</a>
         </p>
         <hr/>
         <p class="l_d">
-            <a>Contact</a>
+            <a href="javascript:void(0);" onclick="contact()">Contact</a>
         </p>
         <hr/>
     </div>
     <div class="nav_cen">
         <div class="nav_t">
-
-
+            <hr/>
+            <h1 align='justify'>Organization:</h1>
+            <p>This task force belongs to the Data Mining and Big Data Analytics Technical Committee of the
+                Computational Intelligence Society (CIS) of the Institute of Electrical and Electronic Engineers,
+                Inc.(IEEE).</p>
+            <hr/>
         </div>
-
     </div>
 </div>
 
