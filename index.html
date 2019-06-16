@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>IEEE CIS Technical Committee on Data Mining and Big Data Analytics</title>
+    <script type="text/javascript">
+        function organization() {
+            var url = "json/test.json"
+            /*json文件url*/
+            var request = new XMLHttpRequest();
+            request.open("get", url);
+            /*设置请求方法与路径*/
+            request.send(null);
+            /*不发送数据到服务器*/
+            request.onload = function () {/*XHR对象获取到返回信息后执行*/
+                if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
+                    var json = JSON.parse(request.responseText);
+                    var diva = document.getElementsByClassName("nav_t")[0]
+                    diva.innerHTML = json.cen
+
+                }
+            }
+        }
+        function lta() {
+            var url = "json/d2.json"
+            /*json文件url*/
+            var request = new XMLHttpRequest();
+            request.open("get", url);
+            /*设置请求方法与路径*/
+            request.send(null);
+            /*不发送数据到服务器*/
+            request.onload = function () {/*XHR对象获取到返回信息后执行*/
+                if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
+                    var json = JSON.parse(request.responseText);
+                    var diva = document.getElementsByClassName("nav_t")[0]
+                    diva.innerHTML = json.cen
+
+                }
+            }
+        }
+    </script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+<div class="nav">
+    <div class="left">
+        <p class="l_wel">
+            Welcome to the
+        </p>
+        <p class="l_tit">
+            <b>IEEE CIS Technical Committee on Data Mining and Big Data Analytics</b>
+        </p>
+        <hr/>
+        <p class="l_d">
+            <a href="javascript:void(0);" onclick="organization()">Organization</a>
+        </p>
+        <hr/>
+        <p class="l_d">
+            <a href="javascript:void(0);" onclick="lta()">List of Technical Activities</a>
+        </p>
+        <hr/>
+        <p class="l_d">
+            <a>Target and Motivation</a>
+        </p>
+        <hr/>
+        <p class="l_d">
+            <a>Mission and Topics</a>
+        </p>
+        <hr/>
+        <p class="l_d">
+            <a>Task Force Committee</a>
+        </p>
+        <hr/>
+        <p class="l_d">
+            <a>Contact</a>
+        </p>
+        <hr/>
+    </div>
+    <div class="nav_cen">
+        <div class="nav_t">
+
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
