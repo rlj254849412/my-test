@@ -20,13 +20,13 @@
 }
 .l_tit{
     width: 200px;
-    height: 100px;
+    height: 70px;
     line-height: 120px;
 
 }
 .l_tit b{
     width: 200px;
-    height: 100px;
+    height: 70px;
     display: block;
     line-height: 25px;
     text-align: center;
@@ -65,41 +65,54 @@
 }
 .nav_t{
     position: absolute;
-    top: 20px;
+    top: 140px;
     left: 10px;
     right: 10px;
     min-width: 600px;
     min-height: 200px;
     /*border-top: #008080 solid 1px;*/
     /*border-bottom: #008080 solid 1px;*/
-    font-family: Times New Roman;
+    font-family: Arial;
+}
+.nat_i{
+    min-width: 600px;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    height: 140px;
+    text-align: center;
+
 }
 .nav_t h1{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-weight: bold;
 }
 .nav_t p{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-size: 18px;
 }
 .nav_t ul{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-left: 30px;
     font-size: 18px;
     width: auto;
 }
 .nav_t .d2 li{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-size: 18px;
     list-style-type: decimal;
 }
 .nav_t .d4 li{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-size: 18px;
     list-style-type: disc;
+}
+.nav_t a{
+    text-decoration:underline;
+    color: blue;
 }
